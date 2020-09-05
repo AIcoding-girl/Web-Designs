@@ -3,3 +3,42 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    color: #3B7339;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-page::after {
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: blur(10px);
+    transition: all 500ms;
+}
+
+.main-page:hover::after {
+    filter: blur(0px);
+}
+
+.content {
+
+}
+
+.content .logo {
+    width: 11rem;
+    height: 11rem;
+}
+
+.content .content-title {
+
+}
+
+.content .content-text {
+
+}
